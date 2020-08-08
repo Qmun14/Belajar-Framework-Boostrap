@@ -1,6 +1,6 @@
 .jumbotron img {
     width: 200px;
-    border: 5px solid yellowgreen;
+    border: 5px solid #2c3127e3;
 }
 
 hr {
@@ -14,4 +14,21 @@ section {
 
 .portfolio {
     background-color: #eeeeee;
+}
+
+.contact {
+    min-height: 800px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    padding-top: 30px;
+}
+
+footer p {
+    color: #aaaaaa;
+    font-size: 0.9em;
 }
