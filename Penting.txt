@@ -1,0 +1,12 @@
+**Hal yang perlu diperhatikan :
+1. Selalu buka documentasi di situs Bootstrap nya
+2. Untuk Memudahkan penggunaan frameWork Bootstrap dalam pembuatan web kita maka yang harus diperhatikan adalah penguasaan pada
+   Grid System yang dipakai oleh bootstrap agar layout web kita lebih dinamis dan responsive.
+    - dalam grid system ini boostrap menggunakan 12 colom dalam default penggunaanya.
+    - agar responisve bisa enak dilihat dimana saja gunakan class -sm pada pilihan responsive toogle nya (untuk HP).
+    - biasakan dalam membuat colom menggunakan div.row 
+    - dalam setiap baris / row dalam penyusunan layout usahakan bungkus dalam sebuah container div.container yang lebih bagus lagi
+      apabila dibungkus setiap sectionnya dalam HTML5 div.container nya kedalam tag <section> yang memiliki kelas sesuai content
+      yang akan kita buat.
+3. Bootstrap masih menggunaka library javascrip JQUERY, yang sebaiknya kita download dan taruh scriptnya di file kita demi kecepatan 
+   web kita dari pada menggunakan yg CDN ke situs JQUERY nya.
